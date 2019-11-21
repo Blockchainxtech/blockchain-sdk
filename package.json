@@ -1,0 +1,31 @@
+{
+  "name": "blockchain-sdk",
+  "version": "1.0.0",
+  "description": "Blockchain-sdk to build applications powered by blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "npm run build & node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blockchainxtech/blockchain-sdk.git"
+  },
+  "author": "sivabharathy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Blockchainxtech/blockchain-sdk/issues"
+  },
+  "homepage": "https://github.com/Blockchainxtech/blockchain-sdk#readme",
+  "dependencies": {
+    "core-js": "^3.4.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1"
+  }
+}
